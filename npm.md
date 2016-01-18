@@ -2,7 +2,7 @@
 
 学习NPM最主要的资料是参考在[官方文档](https://docs.npmjs.com)
 
-## 目录问题
+## 目录
 
 * local install: 放在当前项目的`./node_modules`目录下
 * global install(-g): 放在`/usr/local`这样的node安装目录下
@@ -25,3 +25,12 @@
 
 * 必填项
 * 采用semver形式
+
+
+**scripts**
+
+## CLI Commands
+
+**npm run-script**
+
+简写是`npm run`, 这个指令运行package`scripts`对象里面的任意指令，如果不指定具体的指令，它会列出所有的选项。
