@@ -9,3 +9,19 @@
 * **local**:  当需要通过`require()`使用时，采用local安装
 * **global**: 当需要通过命令行运行时，采用global安装
 * 如果两者都需要，可以都安装，或者采用npm link
+
+
+## package.json
+
+**name**
+
+* 必填项
+* 小写字符串
+* 短小精悍
+* 不要重名
+
+
+**version**
+
+* 必填项
+* 采用semver形式
